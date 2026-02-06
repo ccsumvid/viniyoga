@@ -1,0 +1,154 @@
+.menu-page__header {
+  margin-bottom: 20px;
+}
+
+.menu-page__title {
+  margin: 0 0 4px;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--dark);
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.menu-page__subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: var(--mid);
+}
+
+.menu-page__filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.menu-page__section {
+  margin-bottom: 24px;
+}
+
+.menu-page__section-label {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.menu-page__section-label--available {
+  color: var(--forest);
+}
+
+.menu-page__section-label--unavailable {
+  color: var(--light);
+}
+
+.menu-page__list {
+  display: grid;
+  gap: 12px;
+}
+
+.menu-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu-card__name {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--dark);
+  margin-bottom: 4px;
+}
+
+.menu-card__name--dim {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--mid);
+}
+
+.menu-card__badges {
+  display: flex;
+  gap: 6px;
+}
+
+.menu-card__emoji {
+  font-size: 26px;
+}
+
+.menu-card__ingredients {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.menu-card__ingredient-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: var(--forest-pale);
+  color: var(--forest);
+}
+
+.menu-card--unavailable {
+  opacity: 0.5;
+}
+
+.menu-card__missing {
+  font-size: 12px;
+  color: var(--red);
+  margin-top: 4px;
+}
+
+/* Modal content */
+.menu-modal__ingredients {
+  margin-top: 16px;
+}
+
+.menu-modal__ingredients-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 8px;
+}
+
+.menu-modal__ingredient-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.menu-modal__ingredient-qty {
+  font-weight: 600;
+  color: var(--forest);
+}
+
+.menu-modal__servings {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-modal__servings-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--mid);
+}
+
+.menu-modal__confirm {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, var(--forest), var(--forest-light));
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(27, 94, 32, 0.3);
+}

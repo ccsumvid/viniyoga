@@ -1,0 +1,30 @@
+.stat-card {
+  text-align: center;
+  min-width: 130px;
+}
+
+.stat-card__icon {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.stat-card__value {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--forest);
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.stat-card__label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--mid);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.stat-card__sub {
+  font-size: 11px;
+  color: var(--light);
+  margin-top: 2px;
+}

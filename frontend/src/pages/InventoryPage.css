@@ -1,0 +1,149 @@
+.inventory-page__header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inventory-page__title {
+  margin: 0 0 4px;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--dark);
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.inventory-page__subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: var(--mid);
+}
+
+.inventory-page__search {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  background: var(--white);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  align-items: center;
+}
+
+.inventory-page__search-icon {
+  font-size: 16px;
+}
+
+.inventory-page__search-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  background: transparent;
+  color: var(--dark);
+}
+
+.inventory-page__filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.inventory-page__list {
+  display: grid;
+  gap: 10px;
+}
+
+.inventory-item__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.inventory-item__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inventory-item__icon {
+  font-size: 22px;
+}
+
+.inventory-item__name {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--dark);
+}
+
+.inventory-item__name-en {
+  font-size: 11px;
+  color: var(--light);
+}
+
+.inventory-item__right {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.inventory-item__qty {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.inventory-item__unit {
+  font-size: 10px;
+  color: var(--light);
+}
+
+.inventory-item__edit {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.inventory-item__edit-input {
+  width: 60px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--forest);
+  font-size: 14px;
+  text-align: right;
+}
+
+.inventory-item__edit-save {
+  border: none;
+  background: var(--forest);
+  color: var(--white);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.inventory-item__edit-btn {
+  border: none;
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--mid);
+}
+
+.inventory-item__status {
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.inventory-item__status--out {
+  color: var(--red);
+}
+
+.inventory-item__status--low {
+  color: var(--saffron);
+}

@@ -1,0 +1,67 @@
+.settings-page__title {
+  margin: 0 0 20px;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--dark);
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.settings-section {
+  margin-bottom: 16px;
+}
+
+.settings-section__label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 12px;
+}
+
+.settings-section__input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.settings-section__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.settings-section__servings {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.settings-section__hint {
+  font-size: 11px;
+  color: var(--light);
+  margin-top: 8px;
+}
+
+.settings-section__actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.settings-section__btn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--white);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--mid);
+}
+
+.settings-section__btn:hover {
+  background: #f5f5f5;
+}
