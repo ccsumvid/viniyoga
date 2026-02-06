@@ -4,7 +4,7 @@ FROM node:20-slim AS builder
 WORKDIR /app
 
 COPY package.json package-lock.json ./
-RUN npm ci --production=false
+RUN npm ci --include=dev
 
 COPY public/ ./public/
 COPY src/ ./src/
